@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url('../Demo/image/table_backgroung.jpg');
+                background-repeat: no-repeat;
+                background-attachment: fixed;  
+                background-size: cover;
+            }
+            table {
+              font-family: arial, sans-serif;
+              border-collapse: collapse;
+              width: 50%;
+              margin-left: auto;
+              margin-right: auto;
+              background: linear-gradient(to left, #25c481, #25b7c4);
+              box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			        0 10px 10px rgba(0,0,0,0.22);
+            }
+            td, th {
+              text-align: center;
+              padding: 8px;
+              color: white;
+            }
+            h1{
+                text-align: center;
+                color: rgb(10, 3, 3);
+            }
+            thead{
+              background-color: rgb(69, 67, 67);
+            }
+            </style>
+    </head>
+    <body>
+        <h1>Students Info</h1>
+        <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">No.</th>
+                <th scope="col">Student ID</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Class</th>
+                <th scope="col">Grades</th>
+
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>A11</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>CE</td>
+                <td>A+</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>A12</td>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>ME</td>
+                <td>B+</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>A13</td>
+                <td>Larry</td>
+                <td>Bird</td>
+                <td>EC</td>
+                <td>C+</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>A14</td>
+                <td>John</td>
+                <td>Methew</td>
+                <td>Electrical</td>
+                <td>D+</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>A15</td>
+                <td>Scott</td>
+                <td>Satterfield</td>
+                <td>CE</td>
+                <td>A+</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>A16</td>
+                <td>Greg</td>
+                <td>Bassine</td>
+                <td>ME</td>
+                <td>B+</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>A17</td>
+                <td>Bruce</td>
+                <td>Hennry</td>
+                <td>EC</td>
+                <td>C+</td>
+              </tr>
+            </tbody>
+          </table>
+    </body>
+</html>
